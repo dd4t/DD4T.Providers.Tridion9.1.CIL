@@ -8,4 +8,4 @@ DD4T Providers for Tridion 9.1 Content Interaction Library
 ## Release 2.5
 
 - First release of this provider
-- Compatible with DD4T.Core 2.5 and SDL.Web.Delivery 11.0.1062
+- Compatible with DD4T.Core 2.5 and SDL.Web.Delivery 11.1.1051
