@@ -15,7 +15,7 @@
 	</Target>
 	<Target Name="Compile">
 		<!-- Build the solution. -->
-		<MSBuild Projects="$(MSBuildProjectDirectory)\source\DD4T.Providers.Tridion9.CIL.sln" Targets="Build" Properties="Configuration=$(Configuration)" >
+		<MSBuild Projects="$(MSBuildProjectDirectory)\source\DD4T.Providers.Tridion9.1.CIL.sln" Targets="Build" Properties="Configuration=$(Configuration)" >
 			<Output ItemName="OutputFiles" TaskParameter="TargetOutputs"/>
         </MSBuild>
 	</Target>
