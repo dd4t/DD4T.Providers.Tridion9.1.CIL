@@ -11,7 +11,7 @@
 
 	<Target Name="Clean">
 		<!-- Clean removes all build artifacts to prepare for a new build. -->
-		<MSBuild Projects="$(MSBuildProjectDirectory)\source\DD4T.Providers.Tridion9.CIL.sln" Targets="Clean" />
+		<MSBuild Projects="$(MSBuildProjectDirectory)\source\DD4T.Providers.Tridion9.1.CIL.sln" Targets="Clean" />
 	</Target>
 	<Target Name="Compile">
 		<!-- Build the solution. -->
