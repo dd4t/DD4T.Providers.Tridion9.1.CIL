@@ -36,7 +36,7 @@
 		<DependencyFiles Include="$(DependencyDirectory)\**\*.dll"/>
 		<DependencyDirectories Include="@(DependencyFiles->'%(RootDir)%(Directory)'->Distinct())" />
 	</ItemGroup>
-
+	
 	<Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets"/>
 
 	<!-- Task for retrieving ProductVersion from an Assembly -->

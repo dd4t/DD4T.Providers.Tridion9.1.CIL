@@ -11,8 +11,9 @@
     </releaseNotes>
     <tags>SDLTridion Tridion Tridion9 SDL SDLWeb SDLWeb9 Web DD4T</tags>
     <dependencies>
-      <dependency id="DD4T.Core" version="2.5" />
+      <dependency id="DD4T.Core" version="2.6" />
       <dependency id="Sdl.Web.Delivery" version="11.1.1051" />
+      <dependency id="Newtonsoft.Json" version="13.0.2" />
     </dependencies>
   </metadata>
 </package>
